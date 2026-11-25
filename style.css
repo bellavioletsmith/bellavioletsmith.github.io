@@ -154,7 +154,7 @@ bodycopy a.icon-link:hover {
 }
 
 [data-predefined-style="true"] h1 {
-	font-family: "Terminal Grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Terminal Grotesque", "TG Fallback", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	padding: 0;
@@ -1328,6 +1328,8 @@ bodycopy a.icon-link:hover {
 }
 /* Fonts */
 @font-face{font-family:"Terminal Grotesque";src:url(/fonts/TerminalGrotesque.woff2) format("woff2"),url(/fonts/TerminalGrotesque.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
+/* Stand-in for Terminal Grotesque: Helvetica scaled to its narrower set width */
+@font-face{font-family:"TG Fallback";src:local("Helvetica Neue"),local("HelveticaNeue"),local("Helvetica"),local("Arial");size-adjust:84%}
 /* Backdrops: fixed to the viewport, clipped to their own section (same handoff as the original) */
 .page_container:has(> .backdrop){clip-path:inset(0)}
 .backdrop>div{position:fixed;top:0;left:0;width:100%;height:100vh;overflow:hidden}
