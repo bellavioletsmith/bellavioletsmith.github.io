@@ -3372,7 +3372,7 @@ bodycopy a.icon-link:hover {
 [local-style="32900272"] .container {
 }
 /* Fonts */
-@font-face{font-family:"Terminal Grotesque";src:url(/fonts/TerminalGrotesque.woff2) format("woff2"),url(/fonts/TerminalGrotesque.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Terminal Grotesque";src:url(/fonts/TerminalGrotesque.woff2?v=2) format("woff2"),url(/fonts/TerminalGrotesque.woff?v=2) format("woff");font-weight:400;font-style:normal;font-display:swap}
 /* Stand-in for Terminal Grotesque: Helvetica scaled to its narrower set width */
 @font-face{font-family:"TG Fallback";src:local("Helvetica Neue"),local("HelveticaNeue"),local("Helvetica"),local("Arial");size-adjust:84%}
 /* Stand-in for Neue Haas Grotesk (body): Helvetica scaled to its wider set width, line spacing unchanged */
